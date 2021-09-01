@@ -1,0 +1,43 @@
+.nav__wrapper {
+	@include flex(center);
+	background-color: $bc-cod-gray;
+}
+
+.nav__content {
+	width: 1200px;
+	height: 80px;
+	@include flex(space-between);
+}
+
+.nav__menu--button {
+	width: 80px;
+	height: 80px;
+	background-color: $bc-mine-shaft;
+	@include flex(center-center);
+	cursor: pointer;
+}
+
+.nav__information {
+	width: 700px;
+	@include flex(space-between);
+	margin-top: $space-x-small;
+}
+
+.nav__information--container {
+	@include flex(row);
+}
+
+.nav__information--phone-icon {
+	margin: 0 $space-xx-small 0 $space-standard;
+}
+
+.nav__information--search-icon,
+.nav__information--abonament-icon {
+	margin: $space-xxx-small $space-x-small 0 0;
+}
+
+.nav__information--line {
+	height: $space-x-small;
+	border: thin solid $c-boulder;
+	margin-top: $space-xx-small;
+}

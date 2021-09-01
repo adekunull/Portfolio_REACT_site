@@ -1,0 +1,32 @@
+@mixin flex($type) {
+	@if $type == column {
+		display: flex;
+		flex-direction: column;
+	}
+	@if $type == row {
+		display: flex;
+		flex-direction: row;
+	}
+	@if $type == center {
+		display: flex;
+		justify-content: center;
+	}
+	@if $type == center-center {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	@if $type == column-center {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	@if $type == flex-end {
+		display: flex;
+		justify-content: flex-end;
+	}
+	@if $type == space-between {
+		display: flex;
+		justify-content: space-between;
+	}
+}

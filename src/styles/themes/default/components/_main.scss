@@ -1,0 +1,119 @@
+.main__wrapper {
+	@include flex(center);
+	background-color: $bc-black;
+	color: white;
+}
+
+.main__content {
+	width: 1200px;
+	display: grid;
+	grid-template-columns: $g-col-normal $g-col-normal $g-col-normal;
+	grid-template-rows: $g-row-large $g-row-medium $g-row-small;
+	grid-template-areas: "container1 container1 container2" "container3 container3 container4" "container5 container6 container7";
+}
+
+.main__container {
+	padding: $space-large;
+}
+
+.main__container--1 {
+	grid-area: container1;
+	background-image: url("../img/container-1.png");
+}
+
+.main__container--2 {
+	grid-area: container2;
+	background-image: url("../img/container-2.png");
+	cursor: pointer;
+}
+
+.main__container--2:hover {
+	background-image: url("../img/container-2_hover.png");
+}
+
+.main__packages {
+	grid-area: container3;
+	background-color: $c-butterfly-bush;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.main__packages--content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.packages--grafic {
+	width: 134px;
+	height: 120px;
+}
+
+.main__packages--content-grafic {
+	@include flex(column-center);
+	width: 140px;
+	text-align: center;
+}
+
+.packages--grafic-tv {
+	background-image: url("../img/packages__tv--icon.png");
+	margin: 0;
+}
+
+.packages--grafic-internet {
+	background-image: url("../img/packages__internet--icon.png");
+	margin: 0;
+}
+
+.packages--grafic-phone {
+	background-image: url("../img/packages__phone--icon.png");
+	margin: 0;
+}
+
+.packages--grafic-mobile-internet {
+	background-image: url("../img/packages__mobile-internet--icon.png");
+	margin: 0;
+}
+
+.main__packages--create {
+	@include flex(column-center);
+}
+
+.main__packages--create-button {
+	width: 458px;
+	height: 43px;
+	background-color: $c-mulled-wine;
+	border: 2px solid $c-logan;
+	@include flex(center-center);
+	cursor: pointer;
+}
+
+.main__container--4 {
+	grid-area: container4;
+	background-image: url("../img/container-4.png");
+}
+
+.main__container--5 {
+	grid-area: container5;
+	background-image: url("../img/container-5.png");
+}
+
+.main__container--6 {
+	grid-area: container6;
+	background-image: url("../img/container-6.png");
+}
+
+.main__container--7 {
+	grid-area: container7;
+	background-image: url("../img/container-7.png");
+}
+
+.main__container--7:hover {
+	background-image: url("../img/container-7_hover.png");
+	cursor: pointer;
+}
+
+.main__wrapper {
+	color: white;
+}

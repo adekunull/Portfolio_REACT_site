@@ -1,0 +1,68 @@
+.menu__wrapper {
+	position: absolute;
+	width: 250px;
+	height: 600px;
+	background-color: $bc-cod-gray;
+	@include flex(column);
+}
+
+.menu__container {
+	padding: $space-medium;
+}
+
+.menu__vod {
+	background-color: $bc-white;
+}
+
+.menu__list--option {
+	display: flex;
+	margin: $space-xx-small 0 $space-xx-small 0;
+}
+
+.menu__list--icon {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.menu__list--tv-icon {
+	background-image: url("../img/menu__tv--icon.png");
+	background-size: 20px 19px;
+}
+
+.menu__list--internet-icon {
+	background-image: url("../img/menu__internet--icon.png");
+	background-size: 10px 20px;
+}
+
+.menu__list--phone-icon {
+	background-image: url("../img/menu__phone--icon.png");
+	background-size: 16px 17px;
+}
+
+.menu__list--mobile-internet-icon {
+	background-image: url("../img/menu__mobile-internet--icon.png");
+	background-size: 20px 20px;
+}
+
+.menu__vod--promotion {
+	@include flex(row);
+	margin: $space-standard 0 $space-x-small 0;
+}
+
+.menu__vod--promotion-description {
+	@include flex(column);
+}
+
+.menu__vod--promotion-img {
+	width: 50px;
+	height: 74px;
+	background-image: url("../img/promotion__example.png");
+	margin: 0 $space-x-small 0 0;
+}
+
+.menu__line--white {
+	width: 200px;
+	border: thin solid $c-boulder;
+}

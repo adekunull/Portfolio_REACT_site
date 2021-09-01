@@ -1,0 +1,92 @@
+.text__purple--standard {
+	color: $c-kimberly;
+	font-size: $fontsize-x-small;
+}
+
+.text__purple--big {
+	color: $c-kimberly;
+	font-size: $fontsize-medium;
+	font-weight: bold;
+}
+
+.text__black--standard {
+	color: $c-boulder;
+	font-size: $fontsize-x-small;
+}
+
+.text__black--small {
+	color: $c-boulder;
+	font-size: $fontsize-xx-small;
+}
+
+.text__green--standard {
+	color: $c-atlantis;
+	font-size: $fontsize-x-small;
+}
+
+.text__green--big {
+	color: $c-atlantis;
+	font-size: $fontsize-medium;
+	font-weight: bold;
+}
+
+.text__blue--standard {
+	color: $c-curious-blue;
+	font-size: $fontsize-standard;
+	font-size: $fontsize-x-small;
+}
+
+.menu__list--text {
+	margin-left: $space-x-small;
+	color: $c-boulder;
+	font-size: $fontsize-standard;
+}
+
+.menu__title-purple {
+	color: $c-butterfly-bush;
+	margin: 0 0 $space-small 0;
+}
+
+.menu__title--green {
+	color: $c-atlantis;
+	margin: 0 0 $space-xx-small 0;
+}
+
+.menu__title--black {
+	color: $c-boulder;
+	margin: 0;
+	font-size: $fontsize-small;
+}
+
+.main__header--white-standard {
+	color: $c-white;
+	margin: 0;
+	font-size: $fontsize-large;
+}
+
+.footer__links--link {
+	color: $c-boulder;
+	margin-right: $space-standard;
+}
+
+.text__white--small {
+	color: $c-white;
+	font-size: $fontsize-x-small;
+}
+
+.text__white--small-bold {
+	color: $c-white;
+	font-weight: bold;
+	font-size: $fontsize-x-small;
+}
+
+.text__white--x-medium {
+	color: $c-white;
+	font-size: $fronsize-x-medium;
+}
+
+.text__white--x-medium-bold {
+	color: $c-white;
+	font-weight: bold;
+	font-size: $fronsize-x-medium;
+}

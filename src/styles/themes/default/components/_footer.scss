@@ -1,0 +1,84 @@
+.footer__wrapper {
+	@include flex(center);
+	background-color: $bc-cod-gray;
+}
+
+.footer__content {
+	width: 1200px;
+	height: 200px;
+	@include flex(row);
+	padding-top: $space-x-small;
+}
+
+.footer__container--left {
+	width: 400px;
+	@include flex(column);
+}
+
+.footer__container--right {
+	@extend .footer__container--left;
+	text-align: right;
+}
+
+.footer__content--container-big {
+	height: 100px;
+}
+
+.footer__download--text,
+.footer__media--helpline {
+	@include flex(column);
+}
+
+.footer__download--link {
+	@include flex(row);
+}
+
+.footer__media--phone-number,
+.footer__media--icons,
+.footer__phones--number {
+	@include flex(flex-end);
+}
+
+.footer__download--img {
+	width: 66px;
+	height: 44px;
+	background-image: url("../img/footer__download--icon.png");
+	margin: $space-xx-small $space-x-small 0 0;
+}
+
+.footer__media--icons-facebook {
+	background-image: url("../img/footer__facebook--icon.png");
+}
+
+.footer__media--icons-twitter {
+	background-image: url("../img/footer__twitter--icon.png");
+}
+
+.footer__media--icons-youtube {
+	background-image: url("../img/footer__youtube--icon.png");
+}
+
+.footer__media--smartphone-icon {
+	width: 15px;
+	height: 24px;
+	background-image: url("../img/footer__smartphone--icon.png");
+	margin-right: $space-x-small;
+}
+
+.footer__media--phone-icon {
+	width: 24px;
+	height: 24px;
+	background-image: url("../img/footer__phone--icon.png");
+	margin-right: $space-x-small;
+}
+
+.footer__media--icons-icon {
+	width: 30px;
+	height: 30px;
+	margin-left: $space-x-small;
+}
+
+.footer__line {
+	border: thin solid $c-boulder;
+	margin-bottom: $space-x-small;
+}
